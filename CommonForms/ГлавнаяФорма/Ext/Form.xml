@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<LabelDecoration name="ЧьяФорма" id="1">
+			<Font ref="style:NormalTextFont" height="26" kind="StyleItem"/>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>?ЧьяФорма</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ЧьяФормаКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ЧьяФормаРасширеннаяПодсказка" id="3"/>
+		</LabelDecoration>
+		<UsualGroup name="Группа1" id="40">
+			<Group>Horizontal</Group>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="41"/>
+			<ChildItems>
+				<UsualGroup name="Группа2" id="42">
+					<Group>Vertical</Group>
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="43"/>
+					<ChildItems>
+						<InputField name="Логин" id="16">
+							<DataPath>Логин</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ContextMenu name="ЛогинКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="ЛогинРасширеннаяПодсказка" id="18"/>
+						</InputField>
+						<InputField name="СсылкаНаСправочникНаставникСтажер" id="25">
+							<DataPath>СсылкаНаСправочникНаставникСтажер</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ContextMenu name="СсылкаНаСправочникНаставникСтажерКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="СсылкаНаСправочникНаставникСтажерРасширеннаяПодсказка" id="27"/>
+						</InputField>
+						<InputField name="Роль" id="22">
+							<DataPath>Роль</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ContextMenu name="РольКонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="РольРасширеннаяПодсказка" id="24"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа3" id="44">
+					<Group>Vertical</Group>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="45"/>
+					<ChildItems>
+						<InputField name="Фамилия" id="7">
+							<DataPath>Фамилия</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ContextMenu name="ФамилияКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="ФамилияРасширеннаяПодсказка" id="9"/>
+						</InputField>
+						<InputField name="Имя" id="13">
+							<DataPath>Имя</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ContextMenu name="ИмяКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="ИмяРасширеннаяПодсказка" id="15"/>
+						</InputField>
+						<InputField name="Отчество" id="19">
+							<DataPath>Отчество</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ContextMenu name="ОтчествоКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="ОтчествоРасширеннаяПодсказка" id="21"/>
+						</InputField>
+						<InputField name="Разряд" id="37">
+							<DataPath>Разряд</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ContextMenu name="РазрядКонтекстноеМеню" id="38"/>
+							<ExtendedTooltip name="РазрядРасширеннаяПодсказка" id="39"/>
+						</InputField>
+						<InputField name="Профессия" id="34">
+							<DataPath>Профессия</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ContextMenu name="ПрофессияКонтекстноеМеню" id="35"/>
+							<ExtendedTooltip name="ПрофессияРасширеннаяПодсказка" id="36"/>
+						</InputField>
+						<InputField name="Пол" id="28">
+							<DataPath>Пол</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ContextMenu name="ПолКонтекстноеМеню" id="29"/>
+							<ExtendedTooltip name="ПолРасширеннаяПодсказка" id="30"/>
+						</InputField>
+						<InputField name="ДатаРождения" id="10">
+							<DataPath>ДатаРождения</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ContextMenu name="ДатаРожденияКонтекстноеМеню" id="11"/>
+							<ExtendedTooltip name="ДатаРожденияРасширеннаяПодсказка" id="12"/>
+						</InputField>
+						<UsualGroup name="Группа4" id="46">
+							<Group>Horizontal</Group>
+							<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="47"/>
+							<ChildItems>
+								<InputField name="ТемпераментПоТесту" id="31">
+									<DataPath>ТемпераментПоТесту</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<ContextMenu name="ТемпераментПоТестуКонтекстноеМеню" id="32"/>
+									<ExtendedTooltip name="ТемпераментПоТестуРасширеннаяПодсказка" id="33"/>
+								</InputField>
+								<Button name="ПройтиТест" id="48">
+									<Type>UsualButton</Type>
+									<Visible>false</Visible>
+									<CommandName>DataProcessor.Тест.StandardCommand.Open</CommandName>
+									<ExtendedTooltip name="ПройтиТестРасширеннаяПодсказка" id="49"/>
+								</Button>
+								<UsualGroup name="Группа5" id="53">
+									<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="54"/>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Логин" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Логин</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СсылкаНаСправочникНаставникСтажер" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ссылка на справочник наставник стажер</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Роль" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Роль</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДатаРождения" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата рождения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Имя" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Фамилия" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Фамилия</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Отчество" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчество</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Пол" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пол</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:EnumRef.Пол</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТемпераментПоТесту" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Темперамент по тесту</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:EnumRef.ВидыТемперамента</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Профессия" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Профессия</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Разряд" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Разряд</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ПройтиТест" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пройти тест</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пройти тест</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПройтиТест</Action>
+		</Command>
+	</Commands>
+</Form>
